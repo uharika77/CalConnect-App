@@ -26,17 +26,20 @@ Before you begin, make sure you have the following installed:
    
 2. **Install Dependencies**:
    
-Run the following command to install the required dependencies:
+   Run the following command to install the required dependencies:
 
-npm install
+   npm install
 
 3. **Set up Firebase Authentication**:
 
-Create a Firebase project from Firebase Console.
-Go to Authentication in the Firebase Console and enable Google Sign-In under the Sign-In method tab.
-Get your Firebase config (API key, project ID, etc.) from the Firebase Console.
+i.Create a Firebase project from Firebase Console.
+
+ii. Go to Authentication in the Firebase Console and enable Google Sign-In under the Sign-In method tab.
+
+iii.Get your Firebase config (API key, project ID, etc.) from the Firebase Console.
 
 4. **Configure Firebase in the App**:
+   
 Create a firebase.js file in the src directory and initialize Firebase with your credentials:
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -56,26 +59,27 @@ export default firebaseApp;
 
 5. **Set Up Google Calendar API**:
    
-Go to the Google Cloud Console.
-Create a new project and enable the Google Calendar API.
-Create OAuth 2.0 credentials for your project.
-Use the Client ID and API key in your code to authenticate and access the Google Calendar API.
+   Go to the Google Cloud Console.
+   Create a new project and enable the Google Calendar API.
+   Create OAuth 2.0 credentials for your project.
+   Use the Client ID and API key in your code to authenticate and access the Google Calendar API.
 
 6. **Set Up Google API Client**:
-Make sure you have included the Google API client script in your public/index.html file:
-<script async defer src="https://apis.google.com/js/api.js"></script>
+   Make sure you have included the Google API client script in your public/index.html file:
+   <script async defer src="https://apis.google.com/js/api.js"></script>
 
 7. **Run the App**:
 
-Once the setup is complete, you can start the development server:
+   Once the setup is complete, you can start the development server:
 
-npm start
-Visit http://localhost:3000 in your browser, and you should be able to sign in with your Google account and see your Google Calendar events.
+   npm start
+   Visit http://localhost:3000 in your browser, and you should be able to sign in with your Google account and see your Google Calendar events.
 
 ## How It Works
 
 **Firebase Authentication**: The app uses Firebase Authentication to handle Google Sign-In. Once a user signs in, Firebase provides the necessary authentication token to access Google APIs.
-Google Calendar API: After the user is authenticated, the app loads the Google API client and makes requests to the Google Calendar API to fetch events.
+
+**Google Calendar API**: After the user is authenticated, the app loads the Google API client and makes requests to the Google Calendar API to fetch events.
 Event Display: The events are displayed in a table format, and the user can filter events by their name, start time, and end time.
 Troubleshooting
 
@@ -86,12 +90,13 @@ Google API Authorization: Make sure the user has granted access to their Google 
 ## Future Enhancements
 
 **Add More Filters**: 
-
 Implement more filters like event location, description, etc. 
 
-Event Management: Add functionality to create, update, and delete events on Google Calendar.
+**Event Management**: 
+Add functionality to create, update, and delete events on Google Calendar.
 
-Styling Improvements: Improve the design and user interface for a more polished look.
+**Styling Improvements**: 
+Improve the design and user interface for a more polished look.
 
 ## License
 
