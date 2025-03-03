@@ -25,8 +25,11 @@ CalConnect is a full-stack web application that integrates Google Calendar to he
 # 📂 Project Structure
 
 CalConnect/
-│── calendar-app-frontend/   # Frontend (React)
+
+│── calendar-app-frontend/ # Frontend (React)
+
 │── calendar-app-backend/    # Backend (Node.js, Express)
+
 │── README.md
 
 # ⚙️ Setup Instructions
@@ -41,32 +44,39 @@ cd CalConnect
 cd calendar-app-backend  
 npm install  
 
-Create a .env file in the calendar-app-backend directory and add the following:
+- Create a .env file in the calendar-app-backend directory and add the following:
+
 GOOGLE_CLIENT_ID=your_client_id
+
 GOOGLE_CLIENT_SECRET=your_client_secret
+
 REDIRECT_URI=your_redirect_uri
+
 PORT=5001
 
-Start the backend server:
+- Start the backend server:
+- 
 node server.js 
 
 3️⃣ Frontend Setup
 
-cd ../calendar-app-frontend  
-npm install  
+cd ../calendar-app-frontend 
+
+npm install
+
 npm start 
 
 # 🎯 Usage
-1.Open http://localhost:3000 in your browser.
+1. Open http://localhost:3000 in your browser.
 
-2.Click Login with Google to authenticate.
+2. Click Login with Google to authenticate.
 
-3.View and filter your Google Calendar events.
+3. View and filter your Google Calendar events.
 
 # 📌 To-Do & Future Enhancements
 
--Add event creation functionality
+- Add event creation functionality
 
--Improve UI/UX with better styling
+- Improve UI/UX with better styling
 
--Deploy the application for public access
+- Deploy the application for public access
