@@ -1,4 +1,4 @@
-## CalConnect 📅
+# CalConnect 📅
 
 A full-stack Google Calendar integration app using React, Node.js, and Express.js
 
@@ -24,7 +24,7 @@ CalConnect is a full-stack web application that integrates with Google Calendar,
   
 - Other Tools: dotenv for environment variables, CORS for handling cross-origin requests
 
-# ⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 1️⃣ Clone the Repository
 
@@ -38,7 +38,7 @@ cd calendar-app-backend
 
 npm install  
 
-- Create a .env file in the calendar-app-backend directory and add the following:
+### Create a .env file in the calendar-app-backend directory and add the following:
 
 GOOGLE_CLIENT_ID=your_client_id
 
@@ -48,7 +48,7 @@ REDIRECT_URI=your_redirect_uri
 
 PORT=5001
 
-- Start the backend server:
+### Start the backend server:
    
 node server.js 
 
@@ -60,13 +60,13 @@ npm install
 
 npm start 
 
-# Demo Video 🎥
+## Demo Video 🎥
 
 Check out how the project works in this video recording:
 
 📌 Watch the [DEMO](https://drive.google.com/file/d/14i1QAWU3QGTyjM9zp6U1mVOtx2BUEoTn/view)
 
-# 🎯 Usage
+## 🎯 Usage
 
 1. Open http://localhost:3000 in your browser.
 
