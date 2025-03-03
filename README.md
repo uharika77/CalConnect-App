@@ -9,9 +9,13 @@ CalConnect is a full-stack web application that integrates with Google Calendar,
 ## 🚀 Features
 
 ✅ Google OAuth 2.0 authentication
+
 ✅ Fetch and display Google Calendar events
+
 ✅ Date-based event filtering
+
 ✅ Seamless frontend-backend communication with Axios
+
 ✅ Responsive and user-friendly UI
   
 ## 🛠️ Tech Stack
